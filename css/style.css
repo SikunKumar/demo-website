@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,700&family=Roboto:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.header{
+    
+    /* background-image:url("../image/background5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute; */
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("../css/background5.jpg");
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+.container-heading{
+    position: absolute;
+    top: 300px;
+    
+    
+}
+.container-heading h1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: black;
+    text-align: center;
+}
+.container-heading p{
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+/* --------------- 
+About us 
+--------------- */
+
+
+.about-section {
+    font-size: 15px;
+    
+}
+
+
+
+#article_container {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    min-height: 608px;
+    margin: 0 auto;
+    margin-top: 56px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+}
+
+.article_container_img {
+    flex-grow: 1;
+    min-width: 50%;
+    background-color: #d4d9df;
+    background: url("https://source.unsplash.com/HW5013eyvlU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.article_container_content {
+    flex-grow: 1;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #33363b;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.the{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    margin: 0 16px;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+    font-size: 1.125rem;
+    color: #626a73;
+    text-align: center;
+    line-height: 36px;
+}
+
+.btn {
+    padding: 20px 44px;
+    outline: none;
+    border: 1px solid #99a3b4;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #33363b;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+}
+
+.divider {
+    width: 60px;
+    height: 4px;
+    background-color: #33363b;
+    margin: 40px 0;
+}
+
+.line{
+    width: 35px;
+    height: 1px;
+    background-color: #33363b;
+}
+
+@media (max-width: 768px) {
+    #article_container {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 0;
+    }
+    .article_container_img {
+        width: 100%;
+        height: 608px;
+    }
+    .article_container_content{
+        width: 100%;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    #article_container {
+        flex-wrap: wrap;
+    }
+    .article_container_img {
+        width: 100%;
+        height: 608px;
+    }
+    .article_container_content{
+        width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+/*Team*/
+
+.team-section {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+
